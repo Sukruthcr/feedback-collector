@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  .light-theme {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .dark-theme {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  .feedback-card {
+    background: white;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .dark-theme .feedback-card {
+    background: #444;
+    color: #f9f9f9;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .submit-btn {
+    background: #007bff;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background: #0056b3;
+  }
+  
+  .theme-toggle-btn {
+    margin-bottom: 1rem;
+    background: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .theme-toggle-btn:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .feedback-entry {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .dark-theme .feedback-entry {
+    background: #555;
+  }
+  
+  .timestamp {
+    font-size: 0.8rem;
+    color: #666;
+  }
+  
+  .footer {
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: #444;
+  }
