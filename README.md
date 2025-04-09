@@ -1,23 +1,22 @@
-# 📝 Feedback Collector App
+# 💬 Feedback Collector
 
-A minimalistic feedback collector built using modern frontend and backend tools. Users can submit their feedback with name and email, and admins can view all feedback in a clean interface.
-
-## 🛠️ Tech Stack
-
-- React (Vite)
-- Tailwind CSS
-- Netlify (Hosting + Functions)
-- JavaScript (ES6+)
-- Local JSON (in-memory for this version)
+A minimal yet powerful feedback collector application built with React and Tailwind CSS. Users can submit their name, email, and feedback, which is viewable in an admin dashboard. Fast, responsive, and deployed live with Netlify.
 
 ## 🚀 Live Demo
 
-🔗 [Live on Netlify](https://your-netlify-link.netlify.app)
+🌐 [feedback-sukruth.netlify.app](https://feedback-sukruth.netlify.app/)
 
-## 🧪 How to Run Locally
+## 🛠️ Tech Stack
+
+- ⚛️ React (Vite)
+- 💨 Tailwind CSS
+- ☁️ Netlify (for hosting and serverless functions)
+- 📝 JSON (in-memory storage for now)
+
+## 🧪 Run Locally
+
+Clone the project:
 
 ```bash
-git clone https://github.com/Sukruthcr/feedback-collector
+git clone https://github.com/Sukruthcr/feedback-collector.git
 cd feedback-collector
-npm install
-npm run dev

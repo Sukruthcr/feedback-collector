@@ -128,9 +128,11 @@ function App() {
         </button>
       </div>
 
-      <footer className="footer">
-        Created by <strong>Sukruth</strong> | XYZ Project 2025 🚀
-      </footer>
+      <footer className="mt-6 text-sm text-gray-600">
+  Developed by Sukruth CR 🚀 | © 2025 Feedback Collector
+</footer>
+
+
     </div>
   );
 }
